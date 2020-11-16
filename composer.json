@@ -1,0 +1,19 @@
+{
+    "name": "khoa-le/magento-contact-2-google-sheet",
+    "description": "Import Contact Data to Google SpreadSheet",
+    "require": {
+        "php": "~7.3.22",
+        "google/apiclient": "~2.0.0"
+    },
+    "type": "magento2-module",
+    "version": "2.3.5.2",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Khoaln\\Contact2GoogleSheet\\": ""
+        }
+    }
+}
